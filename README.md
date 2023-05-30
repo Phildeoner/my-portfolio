@@ -27,7 +27,7 @@
 <h2 id = "about"><b> About The Project</b></h2>
 
 ---
-![screenshot](https://github.com/Phildeoner/my-portfolio/blob/aec49eeddf0a821a281ba29487d43dbb71a82cb2/my_portfolio/resources/images/20230511_172539.png)<br>
+![screenshot](https://github.com/Phildeoner/my-portfolio/blob/9c7ca997510112e802f9073d7d4ed9b309fc0d9b/my_portfolio/resources/images/Screenshot_2023-05-15_022652.png)<br>
 
 <b>This is a Portfolio Project which contains the documentation of the user portfolio such as</b>
 
@@ -78,7 +78,7 @@ To access and navigate around this page after executing the steps above, follow 
 
 4. The contact button or link on the nav bar directs to the contact page containing email, address and phone number.
 
-5. When the screen is at a medium size the nav bar is hidden and the three line option icon by the top right is displayed as shown below: <br> ![screenshot](https://github.com/Phildeoner/my-portfolio/blob/aec49eeddf0a821a281ba29487d43dbb71a82cb2/my_portfolio/resources/images/Screenshot%20mobile.png)
+5. When the screen is at a medium size the nav bar is hidden and the three line option icon by the top right is displayed as shown below: <br> ![screenshot](https://github.com/Phildeoner/my-portfolio/blob/9c7ca997510112e802f9073d7d4ed9b309fc0d9b/my_portfolio/resources/images/Screenshot_mobile.png)
 
 6. When the icon as said in step five above is tapped, it displays navigations.
 
