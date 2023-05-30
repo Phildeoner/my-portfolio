@@ -501,3 +501,233 @@ form {
 .skills {
   max-width: 350px;
 }
+
+@media screen and (min-width: 768px) {
+  .menu-btn {
+    visibility: hidden;
+  }
+
+  header img {
+    width: 45px;
+    border-radius: 100px;
+  }
+
+  .nav {
+    visibility: visible;
+    background-color: #fff;
+    height: 8.6vh;
+    z-index: 2;
+    position: fixed;
+  }
+
+  .nav .menu-nav {
+    display: block;
+    transform: translateY(0);
+    background: transparent;
+    text-align: right;
+    margin-right: 85px;
+    width: auto;
+    height: auto;
+    margin-top: auto;
+    position: relative;
+    z-index: 0;
+    right: -25px;
+  }
+
+  .nav .menu-nav_item {
+    display: inline;
+    padding-right: 2vw;
+  }
+
+  .nav .menu-nav_link {
+    font-weight: 700;
+    font-size: 15px;
+    padding: 1rem 0;
+    display: inline-block;
+    margin-left: 2.3vw;
+  }
+
+  .nav .menu-nav_link:hover {
+    border-bottom: 2px solid#AD00FF;
+  }
+
+  .name {
+    margin-left: 85px;
+  }
+
+  .footer .social-icons {
+    flex-direction: row;
+  }
+
+  .text-secondary {
+    font-size: 35px;
+  }
+
+  #home .social-icons {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    background-color: #fff;
+    right: 0;
+    justify-content: center;
+  }
+
+  .footer .social-icons i {
+    font-size: 25px;
+    margin-left: 20px;
+  }
+
+  #home .social-icons i {
+    font-size: 25px;
+  }
+
+  #home {
+    height: 100vh;
+  }
+
+  #home_name {
+    font-weight: 700;
+    font-size: 50px;
+  }
+
+  #home_text2 {
+    font-size: 25px;
+    max-width: 656px;
+  }
+
+  .home_btn {
+    padding: 15px 70px;
+    font-weight: 700;
+    font-size: 20px;
+  }
+
+  .btn {
+    display: flex;
+    position: absolute;
+    gap: 20px;
+  }
+
+  .active {
+    border-bottom: 2px solid#AD00FF;
+    color: #000;
+  }
+
+  footer {
+    padding: 0 8vw;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .footer_left h2 {
+    font-size: 35px;
+  }
+
+  .footer_left p {
+    max-width: 500px;
+    font-size: 20px;
+  }
+
+  .copy {
+    font-size: 17px;
+  }
+
+  #projects_bio-image {
+    height: 32vh;
+  }
+
+  #projects_bio-image p {
+    font-size: 20px;
+    max-width: 650px;
+    font-weight: 400;
+    margin-bottom: 3.7rem;
+  }
+
+  #projects_items {
+    grid-template-columns: repeat(2, 1fr);
+    width: 86vw;
+  }
+
+  #contact-box {
+    max-width: 890px;
+    padding: 20px 30px;
+  }
+
+  input {
+    width: 350px;
+  }
+
+  .wrap {
+    flex-direction: row;
+  }
+
+  textarea {
+    width: 720px;
+    height: 250px;
+  }
+
+  #projects_btns p {
+    font-size: 1vw;
+    line-height: 25px;
+  }
+
+  #projects_btn {
+    font-size: 1.3vw;
+  }
+
+  .about_contents {
+    flex-direction: row;
+    padding: 10px 85px;
+    padding-bottom: 40px;
+  }
+
+  .about_contents h3 {
+    font-weight: 700;
+    font-size: 24px;
+  }
+
+  .about_me {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 36px;
+  }
+
+  .skills {
+    max-width: 30vw;
+  }
+
+  .skills ul {
+    margin-bottom: 60px;
+    margin-top: 10px;
+  }
+
+  .skills li {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 36px;
+    padding: 3px 30px;
+  }
+
+  button {
+    padding: 15px 70px;
+    font-weight: 700;
+    font-size: 20px;
+    margin-right: 50px;
+  }
+
+  #projects_item img {
+    height: 45vh;
+  }
+
+  #resume {
+    padding-top: 5.7vh;
+    padding-bottom: 80px;
+  }
+
+  #projects {
+    padding-top: 5.7vh;
+  }
+
+  #contact {
+    padding-top: 5.7vh;
+  }
+}
