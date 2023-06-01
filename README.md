@@ -58,7 +58,7 @@
 To assess this webpage, here are simple steps to follow:
 
 1. Open your browser
-2. In the search or input box, type in the portfolio web address <https://phildeoner.github.io/Portfolio/index.html> and you will be directed to the home page.
+2. In the search or input box, type in the portfolio web address <https://phildeoner.github.io/my-portfolio/> and you will be directed to the home page.
 
     <u>[Go Back One Step](#built)</u>
 
