@@ -2,6 +2,8 @@ const menuBtn = document.querySelector('.menu-btn');
 const reaction = document.querySelector('.menu-btn_options');
 const menuNav = document.querySelector('.menu-nav');
 const navItems = document.querySelectorAll('.menu-nav__item');
+const sections = document.querySelectorAll('section');
+const navLinks = document.querySelectorAll('header nav a');
 
 let showMenu = false;
 
@@ -22,9 +24,6 @@ function toggleMenu() {
 }
 
 menuBtn.addEventListener('click', toggleMenu);
-
-const sections = document.querySelectorAll('section');
-const navLinks = document.querySelectorAll('header nav a');
 
 window.onscroll = () => {
   sections.forEach((sec) => {
