@@ -119,6 +119,7 @@ header img {
   right: 0;
   height: 7vh;
   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
+  left: 0;
 }
 
 .name {
@@ -128,19 +129,26 @@ header img {
   margin-left: 20px;
 }
 
+.name h2 {
+  font-weight: 500;
+}
+
 .nav .menu-nav {
   display: flex;
   flex-flow: column wrap;
   align-items: center;
   justify-content: center;
-  height: 150px;
+  height: 200px;
   overflow: hidden;
-  background: #ffffff73;
+  background: #ffffffde;
   list-style-type: none;
-  transform: translateY(-110%);
+  transform: translateY(-120%);
   transition: all 0.5s ease-in-out;
   width: 160px;
   margin-top: 150px;
+  position: fixed;
+  z-index: 2;
+  right: 0;
 }
 
 .nav .menu-nav.open {
@@ -320,6 +328,8 @@ footer {
     visibility: visible;
     background-color: #fff;
     height: 8.6vh;
+    z-index: 2;
+    position: fixed;
   }
 
   .nav .menu-nav {
@@ -331,6 +341,9 @@ footer {
     width: auto;
     height: auto;
     margin-top: auto;
+    position: relative;
+    z-index: 0;
+    right: -25px;
   }
 
   .nav .menu-nav_item {
@@ -355,7 +368,7 @@ footer {
   }
 
   #home {
-    height: 91.4vh;
+    height: 100vh;
   }
 
   #home_name {

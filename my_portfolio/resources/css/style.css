@@ -130,6 +130,10 @@ header img {
   margin-left: 20px;
 }
 
+.name h2 {
+  font-weight: 500;
+}
+
 .nav .menu-nav {
   display: flex;
   flex-flow: column wrap;
